@@ -36,7 +36,7 @@ Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`)
 
 #### A resposta correta é: C - Posição do elemento
 
-Controla a sobreposição dos elementos, determinando qual elemento aparece na frente de outro quando eles se sobrepõem.
+`z-index` Controla a sobreposição dos elementos, determinando qual elemento aparece na frente de outro quando eles se sobrepõem.
 
 </p>
 </details>
