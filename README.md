@@ -62,7 +62,9 @@ A pseudo-classe `:first-of-type` é usada para selecionar o primeiro elemento de
 As outras opções têm significados diferentes:
 
 a) `div p:first-child { ... }` - Esta pseudo-classe seleciona o primeiro filho dentro de um `<div>`, mas somente se for um `<p>`. Se houver outro elemento antes do primeiro `<p>`, ele não será selecionado.
+
 c) `div:first p { ... }` - Esta sintaxe é incorreta e não representa uma forma válida de seleção em CSS.
+
 d) `div p:first { ... }` - Também não é uma sintaxe válida em CSS, pois `:first` não existe como pseudo-classe.
 
 </p>
