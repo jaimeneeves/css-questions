@@ -4,7 +4,7 @@
 
 ---
 
-### Básicas
+## Básicas
 
 ###### 1. Qual propriedade CSS altera a cor de fundo de um elemento?
 
