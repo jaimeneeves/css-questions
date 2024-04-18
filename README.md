@@ -2,9 +2,9 @@
   <h1>Perguntas Básicas e Avançadas sobre CSS</h1>
 </div>
 
----
-
 ## Básicas
+
+---
 
 ###### 1. Qual propriedade CSS altera a cor de fundo de um elemento?
 
