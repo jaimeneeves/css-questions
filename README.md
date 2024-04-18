@@ -6,15 +6,15 @@
 
 ###### 1. Qual propriedade CSS altera a cor de fundo de um elemento?
 
-- A: background-color
-- B: color
-- C: bgcolor
-- D: background-image
+- A) background-color
+- B) color
+- C) bgcolor
+- D) background-image
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### A resposta correta é: A - background-color
+#### A resposta correta é: A) `background-color`
 
 A propriedade CSS `background-color` é usada especificamente para definir a cor de fundo de um elemento HTML.
 Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`), valores HEX (por exemplo, `#FF0000`), valores RGB (por exemplo, `rgb(255, 0, 0)`), e mais.
@@ -26,15 +26,15 @@ Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`)
 
 ###### 2. O que a propriedade `z-index` controla no CSS?
 
-- A: Tamanho do elemento
-- B: Cor do elemento
-- C: Posição do elemento
-- D: Nenhum dos anteriores
+- A) Tamanho do elemento
+- B) Cor do elemento
+- C) Posição do elemento
+- D) Nenhum dos anteriores
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### A resposta correta é: C - Posição do elemento
+#### A resposta correta é: C) Posição do elemento
 
 `z-index` Controla a sobreposição dos elementos, determinando qual elemento aparece na frente de outro quando eles se sobrepõem.
 
@@ -47,15 +47,15 @@ Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`)
 
 ###### 3. Como você faria para aplicar um estilo somente ao primeiro parágrafo dentro de um `<div>`?
 
-- A: div p:first-child { ... }
-- B: div p:first-of-type { ... }
-- C: div:first p { ... }
-- D: div p:first { ... }
+- A) div p:first-child { ... }
+- B) div p:first-of-type { ... }
+- C) div:first p { ... }
+- D) div p:first { ... }
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### A resposta correta é: B - `div p:first-of-type { ... }` 
+#### A resposta correta é: B) `div p:first-of-type { ... }` 
 
 A pseudo-classe `:first-of-type` é usada para selecionar o primeiro elemento de um tipo específico dentro de seu contêiner. No contexto desta pergunta, `div p:first-of-type { ... }` seleciona o primeiro elemento `<p>` dentro de qualquer `<div>`, aplicando estilos apenas a esse parágrafo.
 
