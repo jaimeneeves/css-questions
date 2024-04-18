@@ -17,7 +17,7 @@
 #### A resposta correta é: A: background-color
 
 A propriedade CSS `background-color` é usada especificamente para definir a cor de fundo de um elemento HTML.
-Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, "red"), valores HEX (por exemplo, "#FF0000"), valores RGB (por exemplo, "rgb(255, 0, 0)"), e mais.
+Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`), valores HEX (por exemplo, `#FF0000`), valores RGB (por exemplo, `rgb(255, 0, 0)`), e mais.
 
 </p>
 </details>
