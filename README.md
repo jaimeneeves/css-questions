@@ -4,8 +4,6 @@
 
 ## Básicas
 
----
-
 ###### 1. Qual propriedade CSS altera a cor de fundo de um elemento?
 
 - A: background-color
