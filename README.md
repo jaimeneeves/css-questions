@@ -42,3 +42,30 @@ Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`)
 </details>
 
 ---
+
+---
+
+###### 3. Como você faria para aplicar um estilo somente ao primeiro parágrafo dentro de um `<div>`?
+
+- A: div p:first-child { ... }
+- B: div p:first-of-type { ... }
+- C: div:first p { ... }
+- D: div p:first { ... }
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### A resposta correta é: B - `div p:first-of-type { ... }` 
+
+A pseudo-classe `:first-of-type` é usada para selecionar o primeiro elemento de um tipo específico dentro de seu contêiner. No contexto desta pergunta, `div p:first-of-type { ... }` seleciona o primeiro elemento `<p>` dentro de qualquer `<div>`, aplicando estilos apenas a esse parágrafo.
+
+As outras opções têm significados diferentes:
+
+a) `div p:first-child { ... }` - Esta pseudo-classe seleciona o primeiro filho dentro de um <div>, mas somente se for um <p>. Se houver outro elemento antes do primeiro <p>, ele não será selecionado.
+c) `div:first p { ... }` - Esta sintaxe é incorreta e não representa uma forma válida de seleção em CSS.
+d) `div p:first { ... }` - Também não é uma sintaxe válida em CSS, pois :first não existe como pseudo-classe.
+
+</p>
+</details>
+
+---
