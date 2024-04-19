@@ -43,8 +43,6 @@ Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`)
 
 ---
 
----
-
 ###### 3. Como você faria para aplicar um estilo somente ao primeiro parágrafo dentro de um `<div>`?
 
 - A) div p:first-child { ... }
@@ -69,8 +67,6 @@ d) `div p:first { ... }` - Também não é uma sintaxe válida em CSS, pois `:fi
 
 </p>
 </details>
-
----
 
 ---
 
