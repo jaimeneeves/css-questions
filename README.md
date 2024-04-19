@@ -71,3 +71,24 @@ d) `div p:first { ... }` - Também não é uma sintaxe válida em CSS, pois `:fi
 </details>
 
 ---
+
+---
+
+###### 4. Como você faria uma borda pontilhada?
+
+- A) `border-style: dotted;`
+- B) `border-line: dots;`
+- C) `border: dots;`
+- D) `style: dotted;`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### A resposta correta é: A) `border-style: dotted;`
+
+Para criar uma borda pontilhada, você deve usar `border-style: dotted;`.
+
+</p>
+</details>
+
+---
