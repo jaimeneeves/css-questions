@@ -14,7 +14,7 @@
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### A resposta correta é: A) `background-color`
+#### Resposta: A) `background-color`
 
 A propriedade CSS `background-color` é usada especificamente para definir a cor de fundo de um elemento HTML.
 Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`), valores HEX (por exemplo, `#FF0000`), valores RGB (por exemplo, `rgb(255, 0, 0)`), e mais.
@@ -34,7 +34,7 @@ Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`)
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### A resposta correta é: C) Posição do elemento
+#### Resposta: C) Posição do elemento
 
 `z-index` Controla a sobreposição dos elementos, determinando qual elemento aparece na frente de outro quando eles se sobrepõem.
 
@@ -53,7 +53,7 @@ Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`)
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### A resposta correta é: B) `div p:first-of-type { ... }` 
+#### Resposta: B) `div p:first-of-type { ... }` 
 
 A pseudo-classe `:first-of-type` é usada para selecionar o primeiro elemento de um tipo específico dentro de seu contêiner. No contexto desta pergunta, `div p:first-of-type { ... }` seleciona o primeiro elemento `<p>` dentro de qualquer `<div>`, aplicando estilos apenas a esse parágrafo.
 
@@ -80,7 +80,7 @@ d) `div p:first { ... }` - Também não é uma sintaxe válida em CSS, pois `:fi
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### A resposta correta é: A) `border-style: dotted;`
+#### Resposta: A) `border-style: dotted;`
 
 Para criar uma borda pontilhada, você deve usar `border-style: dotted;`.
 
@@ -99,7 +99,7 @@ Para criar uma borda pontilhada, você deve usar `border-style: dotted;`.
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### A resposta correta é: C) `absolute;`
+#### Resposta: C) `absolute;`
 
 O `position: absolute;` permite que um elemento seja posicionado em relação ao seu contêiner mais próximo não estático, podendo sobrepor outros elementos.
 
