@@ -88,3 +88,22 @@ Para criar uma borda pontilhada, você deve usar `border-style: dotted;`.
 </details>
 
 ---
+
+###### 5. Qual valor de `position` é usado para sobrepor elementos?
+
+- A) `static;`
+- B) `fixed;`
+- C) `absolute;`
+- D) `relative;`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### A resposta correta é: C) `absolute;`
+
+O `position: absolute;` permite que um elemento seja posicionado em relação ao seu contêiner mais próximo não estático, podendo sobrepor outros elementos.
+
+</p>
+</details>
+
+---
