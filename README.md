@@ -207,3 +207,30 @@ d) `space-between` - Embora seja um valor que pode ser usado em propriedades com
 </details>
 
 ---
+
+###### 10. Qual propriedade CSS permite animar a transição entre estados?
+
+- A) `animation`
+- B) `transition`
+- C) `transform`
+- D) `animate`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: B) `transition`
+
+A propriedade CSS `transition` é usada para animar mudanças de propriedades de CSS ao longo do tempo, como cor, tamanho, posição, entre outras. Isso permite que as mudanças de estilo não ocorram instantaneamente, mas sim gradualmente durante um período de tempo especificado, criando uma experiência visual suave e agradável.
+
+Aqui está o que cada uma das outras opções significa:
+
+a) `animation` - Embora também usada para animações, a propriedade `animation` é mais complexa e geralmente é usada em conjunto com `@keyframes` para definir animações detalhadas que incluem múltiplos estados e timings.
+
+c) `transform` - Esta propriedade é usada para aplicar transformações geométricas a um elemento (como rotação, escala, movimento, inclinação), mas por si só não cria uma animação ao longo do tempo.
+
+d) `animate` - Não é uma propriedade CSS válida.
+
+</p>
+</details>
+
+---
