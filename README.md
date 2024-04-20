@@ -2,6 +2,14 @@
   <h1>Perguntas Básicas e Avançadas sobre CSS</h1>
 </div>
 
+---
+
+<p align="center">
+De básico a avançado, quantas nuances de CSS você domina realmente? Esteja você procurando refrescar um pouco seu conhecimento ou preparando-se para uma entrevista de codificação, nosso repositório é o recurso perfeito para testar suas habilidades. :muscle: :rocket: Regularmente atualizamos este espaço com novas perguntas, para manter você no topo das tendências e demandas atuais de CSS. As respostas estão adicionadas nas seções colapsáveis abaixo das perguntas; basta clicar nelas para expandir. Divirta-se e boa sorte! :heart:
+</p>
+
+---
+
 ## Básicas
 
 ###### 1. Qual propriedade CSS altera a cor de fundo de um elemento?
