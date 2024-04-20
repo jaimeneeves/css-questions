@@ -10,6 +10,8 @@ Bem-vindos ao nosso repositório GitHub, um tesouro de perguntas sobre CSS que v
 Então, se você está pronto para embarcar nesta jornada de aprendizado, comece a explorar as perguntas, teste suas habilidades e divirta-se no processo. Boa sorte e esperamos que você aproveite tanto quanto nós ao criar e atualizar este repositório! :heart:
 </p>
 
+<p align="center">Sinta-se à vontade para entrar em contato comigo! 😊</p>
+
 ---
 
 ## Básicas
