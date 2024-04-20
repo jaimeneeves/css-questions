@@ -107,3 +107,30 @@ O `position: absolute;` permite que um elemento seja posicionado em relação ao
 </details>
 
 ---
+
+###### 6. Qual propriedade CSS é usada para criar espaçamento entre as bordas de dois elementos adjacentes?
+
+- A) `margin`
+- B) `padding`
+- C) `border`
+- D) `spacing`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `margin`
+
+A propriedade CSS `margin` é usada para criar espaço ao redor dos elementos, fora de quaisquer bordas definidas. Ela é eficaz para controlar o espaçamento entre elementos adjacentes, garantindo que haja uma separação visual entre eles sem alterar o espaço interno do elemento, o qual é controlado pela propriedade `padding`.
+
+Vamos analisar as outras opções para entender por que são incorretas:
+
+b) `padding` - Esta propriedade adiciona espaço dentro de um elemento, entre o conteúdo e a borda, e não afeta o espaçamento entre elementos adjacentes.
+
+c) `border` - Define a borda ao redor do elemento, mas não cria espaço entre elementos.
+
+d) `spacing` - Não é uma propriedade CSS válida.
+
+</p>
+</details>
+
+---
