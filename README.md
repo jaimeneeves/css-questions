@@ -1049,19 +1049,27 @@ d) `shadow-layer` - Também não é uma propriedade CSS válida.
 
 ---
 
-###### 3. ???
+###### 3. Qual propriedade CSS define a ordem de empilhamento de um elemento?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `z-index`
+- B) `stack-index`
+- C) `order`
+- D) `layer`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: A) `z-index`
 
-???
+A propriedade CSS `z-index` é usada para controlar a ordem de empilhamento dos elementos sobrepostos em uma página. Elementos com um maior `z-index` serão posicionados acima daqueles com um `z-index` menor. Esta propriedade só tem efeito em elementos cuja posição é definida como algo diferente de `static` (como `relative`, `absolute`, `fixed`, ou `sticky`).
+
+Vamos considerar as outras opções:
+
+b) `stack-index` - Não é uma propriedade CSS válida.
+
+c) `order` - Esta propriedade é usada dentro de flexbox para controlar a ordem de exibição dos itens flex, mas não afeta a sobreposição de elementos fora de contextos flex.
+
+d) `layer` - Embora o conceito de camadas seja relevante em design gráfico, layer não é uma propriedade CSS.
 
 </p>
 </details>
