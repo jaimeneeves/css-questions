@@ -1024,19 +1024,24 @@ d) `border-mask` - Não é uma propriedade CSS válida.
 
 ---
 
-###### 2. ???
+###### 2. Qual propriedade CSS é usada para aplicar múltiplas sombras a um elemento?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) box-shadow
+- B) text-shadow
+- C) multiple-shadow
+- D) shadow-layer
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: A) `box-shadow` e B) `text-shadow`
 
-???
+As propriedades `box-shadow` e `text-shadow` em CSS podem ser usadas para aplicar múltiplas sombras a um elemento, seja ele um contêiner (`box-shadow`) ou texto (`text-shadow`). Ambas as propriedades permitem a especificação de múltiplas sombras simplesmente separando-as com vírgulas dentro da mesma declaração. Isso permite a criação de efeitos de profundidade e complexidade visual.
+
+Aqui está o que as outras opções representam:
+
+c) `multiple-shadow` - Não é uma propriedade CSS válida.
+d) `shadow-layer` - Também não é uma propriedade CSS válida.
 
 </p>
 </details>
