@@ -180,3 +180,30 @@ d) `view` - Não é uma propriedade CSS válida.
 </details>
 
 ---
+
+###### 9. Qual propriedade CSS ajusta o espaço entre caracteres?
+
+- A) `letter-spacing`
+- B) `word-spacing`
+- C) `text-spacing`
+- D) `space-between`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `letter-spacing`
+
+A propriedade CSS `letter-spacing` é usada para ajustar o espaço entre os caracteres de um texto. Isso permite um controle mais fino sobre a aparência do texto, podendo melhorar a legibilidade ou criar um efeito visual específico. A propriedade aceita valores como `normal` (o padrão), ou uma medida específica (por exemplo, `2px`, `-1px`).
+
+Vamos analisar as outras opções:
+
+b) `word-spacing` - Esta propriedade ajusta o espaço entre palavras, não entre caracteres.
+
+c) `text-spacing` - Não é uma propriedade válida em CSS.
+
+d) `space-between` - Embora seja um valor que pode ser usado em propriedades como `justify-content` para espaçamento entre itens flexíveis ou de grade, não é usado para ajustar espaçamento entre caracteres.
+
+</p>
+</details>
+
+---
