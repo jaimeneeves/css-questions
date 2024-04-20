@@ -997,19 +997,27 @@ d) `animate` - Não é uma propriedade CSS válida.
 
 ## Avançadas
 
-###### 1. ???
+###### 1. Qual propriedade CSS é usada para aplicar uma máscara a um elemento?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `clip-path`
+- B) `mask-image`
+- C) `background-clip`
+- D) `border-mask`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: B) `mask-image`
 
-???
+A propriedade CSS `mask-image` permite aplicar uma máscara a um elemento. Uma máscara define quais áreas do elemento são visíveis e quais são transparentes, usando uma imagem ou um gradiente. Este recurso é poderoso para criar efeitos visuais complexos em interfaces web.
+
+Vamos analisar as outras opções:
+
+a) `clip-path` - Embora clip-path também crie áreas visíveis e invisíveis, ele é usado para recortar um elemento em formas específicas, mas não se baseia em imagens ou gradientes para definir a transparência.
+
+c) `background-clip` - Determina até onde o fundo (como cor ou imagem) deve se estender dentro do elemento, mas não cria uma máscara de transparência.
+
+d) `border-mask` - Não é uma propriedade CSS válida.
 
 </p>
 </details>
