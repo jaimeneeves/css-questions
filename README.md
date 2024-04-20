@@ -1076,19 +1076,27 @@ d) `layer` - Embora o conceito de camadas seja relevante em design gráfico, lay
 
 ---
 
-###### 4. ???
+###### 4. Qual função CSS é usada para aplicar cores com transparência?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `rgba()`
+- B) `opacity()`
+- C) `transparent()`
+- D) `alpha()`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: A) `rgba()`
 
-???
+A função `rgba()` em CSS é usada para definir cores com transparência. A sigla RGBA significa Red, Green, Blue, Alpha, onde os três primeiros valores são números que representam a intensidade das cores vermelho, verde e azul, respectivamente, e o último valor (Alpha) representa a transparência da cor. O valor alpha pode ser um número entre 0 (completamente transparente) e 1 (completamente opaco).
+
+Vamos analisar as outras opções:
+
+b) `opacity()` - Não é uma função, mas uma propriedade que ajusta a transparência de um elemento inteiro, afetando não só a cor, mas todos os conteúdos visuais do elemento.
+
+c) `transparent()` - Não é uma função. `transparent` é um valor de cor que pode ser usado para definir uma cor totalmente transparente, mas não permite a especificação de níveis de transparência.
+
+d) `alpha()` - Não é uma função autônoma em CSS. O componente alpha é usado dentro de outras funções de cor como `rgba()` e `hsla()`.
 
 </p>
 </details>
