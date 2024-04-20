@@ -134,3 +134,22 @@ d) `spacing` - Não é uma propriedade CSS válida.
 </details>
 
 ---
+
+###### 7. Qual propriedade CSS controla o tamanho da fonte?
+
+- A) `font-size` 
+- B) `text-size`
+- C) `font-weight`
+- D) `text-style`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `font-size`
+
+A propriedade CSS `font-size` é usada especificamente para definir o tamanho da fonte de um texto dentro de um elemento HTML. Ela pode ser definida usando diferentes unidades de medida como pixels (`px`), pontos (`pt`), ems (`em`), porcentagens (`%`), entre outros.
+
+</p>
+</details>
+
+---
