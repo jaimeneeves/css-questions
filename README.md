@@ -1041,6 +1041,7 @@ As propriedades `box-shadow` e `text-shadow` em CSS podem ser usadas para aplica
 Aqui está o que as outras opções representam:
 
 c) `multiple-shadow` - Não é uma propriedade CSS válida.
+
 d) `shadow-layer` - Também não é uma propriedade CSS válida.
 
 </p>
