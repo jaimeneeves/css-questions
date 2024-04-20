@@ -153,3 +153,30 @@ A propriedade CSS `font-size` é usada especificamente para definir o tamanho da
 </details>
 
 ---
+
+###### 8. Qual propriedade CSS controla a visibilidade de um elemento?
+
+- A) `visibility`
+- B) `display`
+- C) `opacity`
+- D) `view`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `visibility`
+
+A propriedade CSS `visibility` é usada para controlar a visibilidade de um elemento na página. Os valores possíveis incluem `visible` (o padrão, que torna o elemento visível), `hidden` (que esconde o elemento, mas ainda ocupa espaço na página), e `collapse` (usado principalmente com tabelas para ocultar linhas ou colunas).
+
+Vamos considerar também as outras opções:
+
+b) `display` - Esta propriedade controla se um elemento é exibido ou não, incluindo como ele é renderizado na página. Valores como none podem fazer um elemento desaparecer completamente, diferentemente de visibility, onde o espaço ainda é ocupado.
+
+c) `opacity` - Controla a transparência de um elemento. Um valor de 0 faz o elemento ficar totalmente transparente, mas ainda interativo e ocupando espaço.
+
+d) `view` - Não é uma propriedade CSS válida.
+
+</p>
+</details>
+
+---
