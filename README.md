@@ -1142,19 +1142,19 @@ d) `*` - É o seletor universal, que pode ser usado para selecionar todos os ele
 
 ---
 
-###### 6. ???
+###### 6. Qual propriedade CSS controla o comportamento de rolagem suave?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `scroll-behavior`
+- B) `overflow-scroll`
+- C) `scroll-snap`
+- D) `smooth-scroll`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: A) `scroll-behavior`
 
-???
+A propriedade CSS `scroll-behavior` é usada para especificar se a rolagem de um contêiner de rolagem deve ser animada de forma suave (`smooth`) ou instantânea (`auto`). Este é um ajuste útil para melhorar a experiência do usuário ao navegar por páginas que contêm links de âncora ou ao usar métodos de rolagem programáticos em JavaScript.
 
 </p>
 </details>
