@@ -1115,19 +1115,27 @@ d) `alpha()` - Não é uma função autônoma em CSS. O componente alpha é usad
 
 ---
 
-###### 5. ???
+###### 5. Qual seletor CSS é usado para estilizar todos os elementos irmãos que seguem um elemento especificado?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `+`
+- B) `>`
+- C) `~`
+- D) `*`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: C) `~` 
 
-???
+O seletor `~` em CSS, conhecido como seletor de irmãos gerais, é usado para estilizar todos os elementos irmãos que seguem um elemento especificado. Este seletor permite aplicar estilos a todos os irmãos de um mesmo tipo que estão no mesmo nível do DOM e vêm após o elemento especificado.
+
+Vamos considerar as outras opções:
+
+a) `+` - Este é o seletor de irmão adjacente. Ele seleciona apenas o próximo irmão que segue diretamente o elemento especificado, não todos os irmãos subsequentes.
+
+b) `>` - É o seletor de filho direto, usado para selecionar elementos que são filhos diretos de um elemento específico.
+
+d) `*` - É o seletor universal, que pode ser usado para selecionar todos os elementos em um documento HTML, mas não é específico para irmãos.
 
 </p>
 </details>
