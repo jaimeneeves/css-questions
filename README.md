@@ -1290,13 +1290,13 @@ Suponha que você deseja aplicar uma rotação 3D em torno do eixo Y para criar 
 }
 ```
 
-Neste exemplo, quando o usuário passa o mouse sobre o `<div class="card">`, ele rotacionará em torno do eixo Y.
-
 ```html
 <div class="card">
   Passe o mouse aqui para ver o efeito!
 </div>
 ```
+
+Neste exemplo, quando o usuário passa o mouse sobre o `<div class="card">`, ele rotacionará em torno do eixo Y.
 
 </p>
 </details>
