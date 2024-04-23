@@ -1219,19 +1219,39 @@ A propriedade CSS `column-count` é usada para dividir o conteúdo de um element
 
 ---
 
-###### 8. ???
+###### 8. Para criar um layout de colunas que automaticamente ajusta o número de colunas baseado na largura do viewport, sem utilizar *media queries*, qual propriedade CSS você deve usar e com qual valor?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `column-count: auto;`
+- B) `column-width: 200px;`
+- C) `flex-basis: 200px;`
+- D) `grid-auto-flow: column;`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: B) `column-width: 200px;`
 
-???
+A propriedade `column-width` no CSS é utilizada para especificar a largura mínima das colunas dentro de um elemento com múltiplas colunas. Ao definir esta propriedade, o navegador distribui automaticamente o número de colunas que cabem no contêiner, sem exceder a largura especificada para cada coluna. Isso permite um ajuste automático do número de colunas baseado na largura do viewport, ideal para layouts responsivos.
+
+Exemplo Prático:
+
+```css
+.container {
+  column-width: 200px;
+  column-gap: 20px;
+  width: 100%;
+  height: 300px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+```
+
+```html
+<div class="container">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+</div>
+```
 
 </p>
 </details>
