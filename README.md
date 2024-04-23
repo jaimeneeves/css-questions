@@ -1235,6 +1235,8 @@ A propriedade `column-width` no CSS é utilizada para especificar a largura mín
 
 Exemplo Prático:
 
+Neste exemplo, o contêiner ajusta o número de colunas automaticamente conforme a largura do viewport aumenta ou diminui, tudo isso sem a necessidade de usar media queries. 
+
 ```css
 .container {
   column-width: 200px;
@@ -1258,19 +1260,45 @@ Exemplo Prático:
 
 ---
 
-###### 9. ???
+###### 9. Qual propriedade CSS é usada para aplicar uma transformação 3D a um elemento?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `transform-3d`
+- B) `transform-style`
+- C) `perspective`
+- D) `transform`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: D) `transform`
 
-???
+A propriedade CSS `transform` permite aplicar transformações 2D ou 3D a um elemento, como rotacionar, escalar, mover ou inclinar. Para transformações 3D, você pode usar funções como `rotateX()`, `rotateY()`, `rotateZ()`, `translateZ()`, entre outras, que manipulam o elemento no espaço tridimensional.
+
+Exemplo Prático:
+
+Suponha que você deseja aplicar uma rotação 3D em torno do eixo Y para criar um efeito de virada de cartão quando o usuário passa o mouse sobre o elemento:
+
+```css
+.card {
+  width: 200px;
+  height: 100px;
+  background-color: #f0f0f0;
+  transition: transform 0.5s;
+  transform-style: preserve-3d; /* Mantém o estilo 3D */
+}
+
+.card:hover {
+  transform: rotateY(180deg); /* Rotação em torno do eixo Y */
+}
+```
+
+Neste exemplo, quando o usuário passa o mouse sobre o `<div class="card">`, ele rotacionará em torno do eixo Y.
+
+```html
+<div class="card">
+  Passe o mouse aqui para ver o efeito!
+</div>
+```
 
 </p>
 </details>
