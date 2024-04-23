@@ -69,7 +69,7 @@ Esta propriedade aceita valores de cor, como nomes de cores (por exemplo, `red`)
 
 A pseudo-classe `:first-of-type` é usada para selecionar o primeiro elemento de um tipo específico dentro de seu container. No contexto desta pergunta, `div p:first-of-type { ... }` seleciona o primeiro elemento `<p>` dentro de qualquer `<div>`, aplicando estilos apenas a esse parágrafo.
 
-Exemplo:
+Exemplo Prático:
 
 ```css
 div p:first-of-type {
