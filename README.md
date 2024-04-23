@@ -1137,17 +1137,30 @@ d) `alpha()` - Não é uma função autônoma em CSS. O componente alpha é usad
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: C) `~` 
+#### Resposta: C) `~`
 
 O seletor `~` em CSS, conhecido como seletor de irmãos gerais, é usado para estilizar todos os elementos irmãos que seguem um elemento especificado. Este seletor permite aplicar estilos a todos os irmãos de um mesmo tipo que estão no mesmo nível do DOM e vêm após o elemento especificado.
 
-Vamos considerar as outras opções:
+Exemplo Prático:
 
-a) `+` - Este é o seletor de irmão adjacente. Ele seleciona apenas o próximo irmão que segue diretamente o elemento especificado, não todos os irmãos subsequentes.
+Suponha que você tenha um HTML com vários `<p>` e você quer estilizar todos os `<p>` que seguem um `<h1>` específico, mas não os que vêm antes dele. Você poderia usar o seletor `~` da seguinte maneira:
 
-b) `>` - É o seletor de filho direto, usado para selecionar elementos que são filhos diretos de um elemento específico.
+```css
+h1 ~ p {
+  color: red;
+  font-weight: bold;
+}
+```
 
-d) `*` - É o seletor universal, que pode ser usado para selecionar todos os elementos em um documento HTML, mas não é específico para irmãos.
+```html
+<h1>Titulo Principal</h1>
+<p>Este parágrafo não será afetado.</p>
+<h1>Segundo Título</h1>
+<p>Este parágrafo será estilizado.</p>
+<p>Este parágrafo também será estilizado.</p>
+```
+
+Neste exemplo, apenas os parágrafos que seguem o segundo `<h1>` serão estilizados com texto em vermelho e em negrito. Os parágrafos antes do segundo `<h1>` ou após outro elemento que não seja um `<h1>` não serão afetados.
 
 </p>
 </details>
