@@ -77,6 +77,26 @@ c) `div:first p { ... }` - Esta sintaxe é incorreta e não representa uma forma
 
 d) `div p:first { ... }` - Também não é uma sintaxe válida em CSS, pois `:first` não existe como pseudo-classe.
 
+Exemplo:
+
+```css
+div p:first-of-type {
+  background-color: yellow;  /* Define a cor de fundo como amarela */
+  margin-bottom: 20px;       /* Adiciona uma margem inferior de 20px */
+}
+```
+
+```html
+<div>
+  <p>Este é o primeiro parágrafo e ele será amarelo com margem maior.</p>
+  <p>Este é o segundo parágrafo e não terá os estilos aplicados.</p>
+</div>
+<div>
+  <p>Outro primeiro parágrafo, também estilizado como o primeiro do bloco anterior.</p>
+  <p>Este é outro segundo parágrafo sem os estilos especiais.</p>
+</div>
+```
+
 </p>
 </details>
 
