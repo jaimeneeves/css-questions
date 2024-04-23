@@ -1186,19 +1186,33 @@ A propriedade CSS `scroll-behavior` é usada para especificar se a rolagem de um
 
 ---
 
-###### 7. ???
+###### 7. Qual propriedade CSS permite a criação de colunas para layout de texto?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `column-count`
+- B) `flex-wrap`
+- C) `grid-template-columns`
+- D) `column-layout`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: A) `column-count`
 
-???
+A propriedade CSS `column-count` é usada para dividir o conteúdo de um elemento em várias colunas, proporcionando um layout similar ao de jornais e revistas. Esta propriedade define o número de colunas desejadas, e o navegador automaticamente distribui o conteúdo entre elas.
+
+```css
+.news-article {
+  column-count: 3;
+  column-gap: 20px;  /* Espaço entre as colunas */
+}
+```
+
+```html
+<div class="news-article">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.
+  Vestibulum lacinia accumsan velit, sit amet vestibulum nunc cursus ut. Sed tincidunt...
+</div>
+```
 
 </p>
 </details>
