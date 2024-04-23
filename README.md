@@ -259,19 +259,19 @@ d) `animate` - Não é uma propriedade CSS válida.
 
 ---
 
-###### 11. ???
+###### 11. Qual propriedade CSS é usada para controlar a largura de um elemento?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `width`
+- B) `length`
+- C) `size`
+- D) `dimension`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: A) `width`
 
-???
+A propriedade `width` em CSS é usada para definir a largura de um elemento. Ela pode ser especificada em várias unidades de medida, como pixels (px), porcentagens (%), ems (em), entre outras. Essa propriedade é fundamental para o layout e dimensionamento de elementos na web.
 
 </p>
 </details>
