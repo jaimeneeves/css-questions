@@ -2,8 +2,6 @@
   <h1>Perguntas Básicas e Avançadas sobre CSS</h1>
 </div>
 
----
-
 <p align="center">
 Bem-vindos ao nosso repositório GitHub, um tesouro de perguntas sobre CSS que vão do básico ao avançado! 💪🚀 Se você está começando a aprender CSS ou já é um desenvolvedor experiente procurando um desafio, você veio ao lugar certo. Este repositório foi criado com um único objetivo em mente: ajudá-lo a testar, refinar e expandir seu conhecimento de CSS de uma maneira divertida e engajadora.
 
