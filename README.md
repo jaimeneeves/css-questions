@@ -1,4 +1,5 @@
 <div align="center">
+  <img height="60" src="https://img.icons8.com/color/344/css3.png">
   <h1>Perguntas Básicas e Avançadas sobre CSS</h1>
 </div>
 
