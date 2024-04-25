@@ -323,6 +323,43 @@ Suponha que você deseja adicionar uma borda azul sólida de 2 pixels ao redor d
 
 ---
 
+###### 13. Qual propriedade CSS define a altura de um elemento?
+
+- A) `height`
+- B) `length`
+- C) `size`
+- D) `altitude`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `height`
+
+A propriedade CSS `height` é usada para definir a altura de um elemento. Ela pode ser especificada em várias unidades, como pixels (`px`), porcentagens (`%`), `vh` (viewport height), entre outras. Esta propriedade é fundamental para controlar o layout e o dimensionamento dos elementos em uma página web.
+
+Exemplo Prático:
+
+Suponha que você deseja definir a altura de uma <div> para 150 pixels:
+
+```css
+.fixed-height {
+  height: 150px; /* Define a altura como 150 pixels */
+}
+```
+
+```html
+<div class="fixed-height">
+  Esta div tem uma altura fixa de 150 pixels.
+</div>
+```
+
+Neste exemplo, a `<div class="fixed-height">` terá uma altura fixa de 150 pixels.
+
+</p>
+</details>
+
+---
+
 ## Avançadas
 
 ###### 1. Qual propriedade CSS é usada para aplicar uma máscara a um elemento?
