@@ -339,7 +339,7 @@ A propriedade CSS `height` é usada para definir a altura de um elemento. Ela po
 
 Exemplo Prático:
 
-Suponha que você deseja definir a altura de uma <div> para 150 pixels:
+Suponha que você deseja definir a altura de uma `<div>` para 150 pixels:
 
 ```css
 .fixed-height {
