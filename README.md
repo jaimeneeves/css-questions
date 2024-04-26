@@ -291,6 +291,8 @@ Suponha que você queira definir a largura de uma <div> para 300 pixels:
 </p>
 </details>
 
+---
+
 ###### 12. Qual propriedade CSS é usada para adicionar uma borda ao redor de um elemento?
 
 - A) `border`
@@ -356,6 +358,45 @@ Suponha que você deseja definir a altura de uma `<div>` para 150 pixels:
 ```
 
 Neste exemplo, a `<div class="fixed-height">` terá uma altura fixa de 150 pixels.
+
+</p>
+</details>
+
+---
+
+###### 14. Qual propriedade CSS ajusta a largura da borda de um elemento?
+
+- A) `border-width`
+- B) `border-size`
+- C) `border-length`
+- D) `border-scale`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `border-width`
+
+A propriedade CSS `border-width` é usada para especificar a largura das bordas de um elemento. Você pode definir um valor único para todas as bordas ou especificar valores individuais para cada borda (superior, direita, inferior, esquerda).
+
+Exemplo Prático:
+
+Suponha que você deseja definir a largura da borda de uma `<div>` para ser mais espessa no topo e na base, mas mais fina nas laterais:
+
+```css
+.custom-border {
+  border-style: solid;
+  border-color: black;
+  border-width: 8px 2px; /* 8px no topo e na base, 2px nas laterais */
+}
+```
+
+```html
+<div class="custom-border">
+  Esta div tem bordas de larguras personalizadas.
+</div>
+```
+
+Neste exemplo, a `<div class="custom-border">` terá bordas superiores e inferiores com 8 pixels de largura, e bordas laterais com 2 pixels de largura.
 
 </p>
 </details>
