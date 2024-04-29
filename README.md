@@ -399,6 +399,37 @@ Neste exemplo, a `<div class="custom-border">` terá bordas superiores e inferio
 </p>
 </details>
 
+###### 15. Qual seletor CSS é usado para estilizar todos os parágrafos dentro de um elemento com a classe 'texto'?
+
+- A) `.texto p`
+- B) `p .texto`
+- C) `#texto p`
+- D) `p > .texto`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `.texto p`
+
+O seletor `.texto p` seleciona todos os elementos `<p>` que são descendentes de qualquer elemento que tenha a classe texto. Isso significa que todos os parágrafos dentro de um contêiner com a classe `texto` serão estilizados.
+
+```css
+.texto p {
+  color: blue;  /* Cor do texto azul */
+  font-size: 16px; /* Tamanho do texto 16px */
+}
+```
+
+```html
+<div class="texto">
+  <p>Este parágrafo será azul e com tamanho 16px.</p>
+  <p>Este também será azul e com tamanho 16px.</p>
+</div>
+```
+
+</p>
+</details>
+
 ---
 
 ## Avançadas
