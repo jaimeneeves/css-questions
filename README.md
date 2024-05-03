@@ -759,19 +759,33 @@ Suponha que você tenha três itens em um contêiner Flexbox e deseja que o terc
 
 ---
 
-###### 11. ???
+###### 11. Qual propriedade CSS3 é usada para aplicar filtros visuais a um elemento?
 
-- A) ???
-- B) ???
-- C) ???
-- D) ???
+- A) `filter`
+- B) `blur`
+- C) `effect`
+- D) `visual-filter`
 
 <details><summary><b>Resposta</b></summary>
 <p>
 
-#### Resposta: ?) ???
+#### Resposta: A) `filter`
 
-???
+A propriedade CSS `filter` permite aplicar efeitos gráficos como desfoque (`blur`), saturação (`saturate`), brilho (`brightness`), e muitos outros a elementos HTML. Esta propriedade é muito versátil e pode ser usada para criar uma variedade de efeitos visuais sem a necessidade de software de edição de imagens.
+
+```css
+.blurry-image {
+  filter: blur(5px) contrast(200%);
+  transition: filter 0.3s ease;  /* Suaviza a transição dos filtros */
+}
+.blurry-image:hover {
+  filter: none;  /* Remove os filtros ao passar o mouse */
+}
+```
+
+```html
+<img src="example.jpg" alt="Descriptive Alt Text" class="blurry-image">
+```
 
 </p>
 </details>
