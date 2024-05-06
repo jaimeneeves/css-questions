@@ -471,6 +471,36 @@ Nesse exemplo, a classe `.menu` define o layout flexbox com direção em linha. 
 
 ---
 
+###### 17. Qual propriedade CSS3 remove o marcador padrão (bolinha ou número) de uma lista não ordenada?
+
+- A) `list-style: none`
+- B) `no-list`
+- C) `remove-list`
+- D) `list-style-type: none`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `list-style: none`
+
+A propriedade `list-style: none` em CSS3 remove o marcador padrão (bolinha ou número) de uma lista não ordenada (`<ul>`). Isso permite que você personalize o estilo da sua lista, criando um design mais moderno e atraente.
+
+Exemplo Prático:
+
+Imagine que você deseja criar uma lista com marcadores de estilo "disco" em vez das bolinhas padrão. Para isso, você pode usar o seguinte código CSS3:
+
+```css
+ul {
+  list-style: disc;
+}
+
+```
+
+</p>
+</details>
+
+---
+
 ## Avançadas
 
 ###### 1. Qual propriedade CSS é usada para aplicar uma máscara a um elemento?
