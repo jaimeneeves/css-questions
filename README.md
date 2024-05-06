@@ -432,6 +432,43 @@ O seletor `.texto p` seleciona todos os elementos `<p>` que são descendentes de
 
 ---
 
+###### 16. Qual propriedade define a direção do layout flexbox para uma linha de elementos?
+
+- A) `flex-direction: row`
+- B) `flex-direction: column`
+- C) `direction: flex`
+- D) `row-direction: flex`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: A) `flex-direction: row`
+
+A propriedade `flex-direction: row` define a direção do layout flexbox para uma linha de elementos. Isso significa que os elementos serão dispostos lado a lado, como em uma linha horizontal.
+
+Exemplo Prático:
+
+Imagine que você deseja criar um menu horizontal com itens lado a lado. Para isso, você pode usar o seguinte código CSS3:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+```
+
+Nesse exemplo, a classe `.menu` define o layout flexbox com direção em linha. As classes `.menu li` estilizam cada item do menu com padding e borda.
+
+</p>
+</details>
+
+---
+
 ## Avançadas
 
 ###### 1. Qual propriedade CSS é usada para aplicar uma máscara a um elemento?
