@@ -501,6 +501,36 @@ ul {
 
 ---
 
+###### 18. Qual propriedade controla o espaçamento interno de um elemento?
+
+- A) `margin`
+- B) `padding`
+- C) `border`
+- D) `spacing`
+
+<details><summary><b>Resposta</b></summary>
+<p>
+
+#### Resposta: B) `padding`
+
+A propriedade `padding é usada para controlar o espaçamento interno, ou seja, o espaço entre o conteúdo de um elemento e suas bordas.
+
+```css
+div {
+  padding: 20px;
+  background-color: lightgray;
+}
+```
+
+```html
+<div>Este div tem 20px de padding.</div>
+```
+
+</p>
+</details>
+
+---
+
 ## Avançadas
 
 ###### 1. Qual propriedade CSS é usada para aplicar uma máscara a um elemento?
