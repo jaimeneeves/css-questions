@@ -513,7 +513,7 @@ ul {
 
 #### Resposta: B) `padding`
 
-A propriedade `padding é usada para controlar o espaçamento interno, ou seja, o espaço entre o conteúdo de um elemento e suas bordas.
+A propriedade `padding` é usada para controlar o espaçamento interno, ou seja, o espaço entre o conteúdo de um elemento e suas bordas.
 
 ```css
 div {
